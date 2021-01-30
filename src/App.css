@@ -1,38 +1,145 @@
-.App {
+.calculator-body {
+  width: 30%;
+  background: #403f3f;
+  height: 470px;
+  margin: 0 auto;
+  background-image: linear-gradient(#000, #403f3f);
+  padding: 15px;
+  position: relative;
+}
+
+.app-title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#num {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  background: transparent;
+  color: #ccc;
+  border: 1px solid #424141;
+  border-radius: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#num1 {
+  width: 80%;
+
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  background: transparent;
+  color: #ccc;
+  border: 1px solid #424141;
+  border-radius: 4px;
+  margin-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#addbtn {
+  float: right;
+  display: block;
+  /* position: absolute; */
+  right: 27px;
+  background: #ff2f2f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 32px;
+  border: 1px solid #ff2f2f;
+  margin-right: 20px;
+  clear: both;
 }
 
-.App-link {
-  color: #61dafb;
+.set-buttons {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#subtractbtn {
+  float: right;
+  display: block;
+  /* position: absolute; */
+  right: 27px;
+  background: #ff2f2f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 32px;
+  border: 1px solid #ff2f2f;
+  margin-right: 20px;
+  clear: both;
+  margin-top: 10px;
+}
+
+#multiplybtn {
+  float: right;
+  display: block;
+  /* position: absolute; */
+  right: 27px;
+  background: #ff2f2f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 32px;
+  border: 1px solid #ff2f2f;
+  margin-right: 20px;
+  clear: both;
+  margin-top: 10px;
+}
+
+#dividebtn {
+  float: right;
+  display: block;
+  /* position: absolute; */
+  right: 27px;
+  background: #ff2f2f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 32px;
+  border: 1px solid #ff2f2f;
+  margin-right: 20px;
+  clear: both;
+  margin-top: 10px;
+}
+
+#clearbtn {
+  float: right;
+  display: block;
+  /* position: absolute; */
+  right: 27px;
+  background: #ff712f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 32px;
+  border: 1px solid #8b651a;
+  margin-right: 20px;
+  clear: both;
+  margin-top: 10px;
+}
+
+#result {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 20px;
+  height: 40px;
+  width: 61%;
+  background: radial-gradient(black, #313030);
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 22px;
+  padding-left: 10px;
+  text-align: right;
+  padding-right: 15px;
 }
